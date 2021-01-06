@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="First Shared Task on Automatic Minuting">
+
+  <title>First Shared Task on Automatic Minuting</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Fira Sans font -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
+
+  <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- Custom styles for this template -->
+  <link href="styles.css" rel="stylesheet">
+
+  <!-- icons -->
+  <link rel="stylesheet" href="./font-awesome-4.1.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+  <!-- NAVBAR ================================================== -->
+
+  <div class="navbar-wrapper">
+    <div class="container">
+      <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container">
+
+          <!-- MENU BUTTON FOR SMALL SCREENS + LOGO ================================ -->
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="header-logo-link" href="index.html">
+              <div class="header-logo">
+                <span class="letter-highlight">A</span>utomatic
+                <span class="letter-highlight">M</span>inuting
+                 <!--<span class="letter-highlight">S</span>hared Task-->
+                @ <span class="letter-highlight">InterSpeech 2021</span>
+              </div>
+            </a>
+          </div>
+
+          <!-- MENU OPTIONS ================================================== -->
+
+          <div class="navbar-collapse collapse pull-right">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Call for Participation <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="cfp.html">CfP</a></li>
+                   <!--<li><a href="cfp.html#topics">Topics of Interest</a></li>-->
+                  <!--<li><li><a href="cfp.html#sharedtasks">Shared Tasks</a></li>-->
+                  <li><a href="cfp.html#submission">Submission Information</a></li>
+                  <li><a href="index.html#important-dates">Important Dates</a></li>
+                  <!--<li><a href="cfp.html#journal">Journal Extension</a></li>-->
+                  <!--<li><a href="cfp.html#keynotes">Keynote Speakers</a></li>-->
+                  <!--<li><a href="cfp.html#committees">Committees</a></li>-->
+                </ul>
+              </li>
+              <!--<li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shared Tasks <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="sharedtasks.html">Call for Participation</a></li>
+                  <li><a href="sharedtasks.html#clscisumm">CL-SciSumm</a></li>
+                  <li><a href="sharedtasks.html#laysumm">CL-LaySumm</a></li>
+                  <li><a href="sharedtasks.html#longsumm">LongSumm</a></li>
+                  <li><a href="sharedtasks.html#register">Registration</a></li>
+                  <li><a href="sharedtasks.html#dates">Important Dates</a></li>
+                  <li><a href="sharedtasks.html#organizers">Organizers</a></li>
+                </ul>
+              </li>-->
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Program<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="keynotespeakers.html">Keynote Speakers</a></li>
+                  <li><a href="program.html">Program Outline</a></li>
+                  <li><a href="accepted-papers.html">Accepted Submissions</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Committees<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="organizingcommittee.html">Organizing Committee</a></li>
+                  <!--<li><a href="steeringcommittee.html">Steering Committee</a></li>-->
+                  <li><a href="programcommittee.html">Scientific Committee</a></li>
+                  <!--<li><a href="contact.html">Contact Us</a></li>-->
+                </ul>
+              </li>
+              <!--<li><a href="previousworkshops.html">Other Workshops</a></li>-->
+               <!--<li><a href="https://www.interspeech2021.org/">Venue</a></li>-->
+            </ul>
+          </div>
+
+          <!-- MENU OPTIONS END ================================ -->
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CAROUSEL ==================================================== -->
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="item active">
+        <img class="img-responsive" src="images/meeting.jpg" alt="AutoMin">
+        <div class="container">
+          <div class="carousel-caption">
+            <div class="carousel-bg">
+              <h1>First Shared Task on Automatic Minuting</h1>
+              <p>Generate Meeting Minutes from Transcripts</p>
+            </div>
+            <p><a class="btn btn-lg btn-primary" href="#overview" role="button">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+    <div class="item">
+        <img class="img-responsive" src="images/meeting-minutes.png" alt="Venue">
+        <div class="container">
+          <div class="carousel-caption">
+            <div class="carousel-bg">
+              <h1>Venue</h1>
+              <p>
+                The First Shared Task on Automatic Minuting of Meeting Proceedings will be held in conjuction with Interspeech 2021
+              </p>
+            </div>
+            <p><a class="btn btn-lg btn-primary" href="https://www.interspeech2021.org/" role="button">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+  </div>
+
+  <!-- QUICK LINKS ============================================ -->
+
+  <div class="container marketing">
+  
+    <div class="row">
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-lg-4">
+            <h2>Venue</h2>
+            <p>
+              The First Shared Task on Automatic Minuting of Meeting Proceedings will be held in conjuction with Interspeech 2021.
+            </p>
+            <p>
+              <a class="btn btn-default" href="https://www.interspeech2021.org/" role="button">View details &raquo;</a>
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <h2>Minuting Data</h2>
+            <p>
+              Data Available for the Shared Task
+            </p>
+            <p>
+              <a class="btn btn-default" href="cfp.html" role="button">View details &raquo;</a>
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <h2>Call for Partcipation</h2>
+            <p>
+              Task and Data Description, Submission Instructions, and Important Dates.
+            </p>
+            <p>
+              <a class="btn btn-default" href="cfp.html" role="button">View details &raquo;</a>
+            </p>
+          </div>
+        </div>
+
+        <!-- NEWS ======================================== 
+  
+        <hr class="featurette-divider">
+  
+        <a name="overview"></a>
+        <div class="row featurette">
+          <div class="col-md-12">
+            <h1>News</h1>
+            <div class="alert alert-info" role="alert">
+              <p>
+                <strong>See our <a href="https://github.com/ornlcda/SDProc/blob/master/SDP2020-Intro.pdf"> Introduction</a> and <a href="https://github.com/WING-NUS/scisumm-corpus/blob/master/publications/CL-SciSumm2020/CL-SciSumm2020_slidedeck.pdf"> Shared Tasks </a>  </strong> overview slides!<br />
+              </p>
+            </div>
+            <div class="alert alert-info" role="alert">
+              <p>
+                <strong>See our Keynote Presentations by<a href="https://github.com/ornlcda/SDProc/blob/master/KuansanWang_SDP2020.pdf"> Kuansan Wang</a> and <a href="https://github.com/ornlcda/SDProc/blob/master/SteinnSigurdsson_SDP2020.pdf"> Steinn Sigurdsson!</a></strong><br />
+              </p>
+            </div>
+            <div class="alert alert-info" role="alert">
+              <p>
+                <strong>Join us live on our <a href="https://virtual.2020.emnlp.org/workshop_WS-7.html"> virtual platform</a> at 8:45 AM EST on November 19th!   </strong><br />
+              </p>
+            </div>
+            <div class="alert alert-info" role="alert">
+              <p>
+                <strong>Nov 16: Browse our workshop papers, slides, and pre-recorded videos at the <a href="https://virtual.2020.emnlp.org/papers.html?program=workshop&track=First+Workshop+on+Scholarly+Document+Processing+(SDP+2020)&filter=titles"> EMNLP 2020 Virtual Infrastructure! </a> Check our <a href="https://ornlcda.github.io/SDProc/program.html">Program Schedule </a> </strong><br />
+              </p>
+            </div>
+            <div class="alert alert-info" role="alert">
+              <p>
+                <strong>Nov 09: Our <a href=" https://www.aclweb.org/anthology/events/emnlp-2020/#2020-sdp-1"> Proceedings </a> are online at ACL Anthology! </strong><br />
+              </p>
+            </div>
+            <div class="alert alert-info" role="alert">
+              <p>
+                <strong> Exciting <a href="keynotespeakers.html"> Keynote Talks </a> at SDP 2020! </strong><br />
+              </p>
+            </div>
+            <div class="older-news-link">
+              <a href="news.html">Older news</a>
+            </div>
+          </div>
+        </div> -->
+  
+        <!-- WORKSHOP OVERVIEW ======================================== -->
+  
+        <hr class="featurette-divider">
+  
+        <a name="overview"></a>
+        <div class="row featurette">
+          <div class="col-md-12">
+            <h1>Shared Task Overview</h1>
+            <p class="lead">
+              Summarizing meetings in the form of structured minutes from speech can potentially save up to 80% of time.
+              The First Shared Task on Automatic Minuting is aimed towards creating minutes from multi-party meetings. 
+              Minuting is closely related to summarization, however, both are not exactly the same task. 
+              Automatic Minuting is challenging in the sense that there is no universal framework for creating minutes and it varies across different types of meetings, subjects, and objective. 
+              Our shared task would consist of one main task and two supporting tasks for two different kinds of meeting scenarios (technical meetings and parliamentary proceedings). 
+              The technical meetings would consist of data in English and also in Czech. 
+              A closely related <a href="http://homepages.inf.ed.ac.uk/jeanc/SpeechSummarization06.html">shared task on Speech Summarization</a> was carried out in 2006 with a focus on English. 
+              In the light of the increased dominance of deep learning and efficient language models in Speech and Natural Language Processing it is an exciting time to re-launching such a shared task effort.
+              The objective is to rejuvenate the community interest to attempt this interesting problem and unfold challenges towards creating a unified framework for automatic minuting of meetings.
+            </p>
+             <!-- <p class="lead">
+            </p>-->
+          </div>
+        </div>
+  
+        <!-- WORKSHOP VENUE ======================================== 
+  
+        <hr class="featurette-divider">
+  
+        <a name="venue"></a>
+        <div class="row featurette">
+          <div class="col-md-12">
+            <h1>Shared Task Venue</h1>
+            <p class="lead">
+              The 1<sup>st</sup> Shared Task on Automatic Minuting will be collocated with <a
+                href="https://www.interspeech2021.org/">Interspeech 2021</a>. The
+              proposed event will be
+              held as a half-day event.
+            </p>
+          </div>
+        </div> -->
+  
+        <!-- IMPORTANT DATES ========================================== -->
+  
+        <hr class="featurette-divider">
+  
+        <a name="important-dates"></a>
+        <div class="row featurette">
+  
+          <div class="col-md-12">
+            <h1>Important Dates<sup><mark>Proposed</mark></h1>
+          <!--  <p class="lead program"><mark>New Dates!</mark></p> -->
+            <table class="program-table table table-striped">
+              <tr>
+                <td class="icon-column"><i class="fa fa-calendar"></i></td>
+                <td>1st Call for Participation</td>
+                <td class="date-column">March 16, 2021</td>
+              </tr>
+              <tr>
+                <td class="icon-column"><i class="fa fa-calendar"></i></td>
+                <td>Trial Data Available</a></td>
+                <td class="date-column">March 16, 2021</td>
+              </tr>
+              <tr>
+                <td class="icon-column"><i class="fa fa-calendar"></i></td>
+                <td>Training Data Available</td>
+                <td class="date-column">April 1, 2021</td>
+              </tr>
+              <tr>
+                <td class="icon-column"><i class="fa fa-calendar"></i></td>
+                <td>Evaluation Starts</td>
+                <td class="date-column">April 1, 2021</td>
+              </tr>
+              <tr>
+                <td class="icon-column"><i class="fa fa-calendar"></i></td>
+                <td>2nd Call for Participation</td>
+                <td class="date-column">April 16, 2021</td>
+              </tr>
+              <tr>
+                <td class="icon-column"><i class="fa fa-calendar"></i></td>
+                <td>System Submission</td>
+                <td class="date-column">June 1, 2021</td>
+              </tr>
+               <tr>
+                <td class="icon-column"><i class="fa fa-calendar"></i></td>
+                <td>Result Announcement</td>
+                <td class="date-column">June 15, 2021</td>
+              </tr>
+              <tr>
+                <td class="icon-column"><i class="fa fa-calendar"></i></td>
+                <td>System Report and Paper Submission (PBML) Due</td>
+                <td class="date-column">July 15, 2021</td>
+              </tr>
+              <tr>
+                <td class="icon-column"><i class="fa fa-calendar"></i></td>
+                <td>Notification to the Authors</td>
+                <td class="date-column">Aug 16, 2021</td>
+              </tr>
+              <tr>
+                <td class="icon-column"><i class="fa fa-calendar"></i></td>
+                <td>Camera-ready Submission Due</td>
+                <td class="date-column">Sep 1, 2021</td>
+              </tr>
+              <tr>
+                <td class="icon-column"><i class="fa fa-calendar"></i></td>
+                <td>Event Date</td>
+                <td class="date-column">Sep 3, 2021</td>
+              </tr>
+            </table>
+              <p> All submission deadlines are 11:59 PM AoE (Anywhere on Earth) Time Zone (UTC-12). </p>
+          </div>
+  
+        </div>
+  
+      </div>
+      <div class="col-md-1">
+        <a class="twitter-timeline" data-height="1450" href="https://twitter.com/elitrorg?lang=en">Tweets by ELITR</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+      </div>
+
+    </div>
+            
+    <!-- FOOTER ========================================== -->
+  
+    <hr><br />
+  
+    <footer>
+     <div class="footer-wrapper">
+        <div class="footer-left">
+          <p>Contact: <a href="mailto:minute@ufal.mff.cuni.cz">minute@ufal.mff.cuni.cz</a></p>
+          <p>Follow us: <a href="https://twitter.com/elitrorg">https://twitter.com/elitrorg</a></p>
+          <p>&copy; 2020 European Live Translator, A Horizon 2020 Project, <a href="https://elitr.eu/">https://elitr.eu/</a></p>
+         <!-- <p>
+            <a href="https://www.pexels.com/photo/library-university-books-students-12064/">
+              Photo of Library Room by Tamas Meszaros (Free to use)
+            </a>
+          </p>
+          <p>
+            <a href="https://pxhere.com/en/photo/1575603">
+              Picture of a network by asawin form PxHere (Creative Commons CC0)
+            </a>
+          </p>-->
+        </div>
+        <div class="footer-right">
+          <a href="#">Back to top</a>
+        </div>
+     </div>
+    </footer>
+
+  </div>
+
+  <!-- Bootstrap core JavaScript ================================================== -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="./dist/js/bootstrap.min.js"></script>
+  <script src="./assets/js/docs.min.js"></script>
+
+</body>
+
+</html>
