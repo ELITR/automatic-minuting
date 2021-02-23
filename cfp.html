@@ -221,22 +221,63 @@
         
         <p>
           The data for the shared task would be available in the following Github repository. More task-specific details to use the data would be provided in due time on our website.
-          <a href="https://github.com/ELITR">https://github.com/ELITR</a>
+          <a href="https://github.com/ELITR/automin-2021">https://github.com/ELITR/automin-2021</a>
         </p>
-
+        
+        <p>
+         Aside from the data we release, we recommend the following datasets to use in your training although our domains do not match: 
+        </p>
+        <ul>
+        <li>
+          <b>CNN-Daily Mail</b>: You can use the scripts in <a href="https://github.com/abisee/cnn-dailymail">here</a> to generate the non-anonymized version of the corpus.
+        </li>
+         <li>
+           The <a href="http://groups.inf.ed.ac.uk/ami/corpus/overview.shtml">AMI Meeting Corpus</a>. You can download the summary corpus from <a href="https://github.com/gcunhase/AMICorpusXML">here</a>.
+        </li>
+         <li>
+           The <a href="http://groups.inf.ed.ac.uk/ami/icsi/download/">ICSI Meeting Corpus</a>
+        </li>
+         <li>
+           The <a href="https://podcastsdataset.byspotify.com">Spotify Podcast Dataset</a>. 
+        </li>
+        </ul>
+          Task participants are allowed to use any further data. When submitting, you need to indicate which data was used to train your system:
+          <ul>
+            <li>
+              Minimal - minimal submissions use only the in-domain training data
+            </li>
+            <li>
+              Constraint - constraint submissions use the in-domain training data and CNN-DM, AMI, and ICSI.
+            </li>
+            <li>
+              Non-constraint - non-constraint submissions may use any other data.
+            </li>
+          </ul>
+         <p>
+         In any case, please clearly describe which data was used in what way in your system paper. A comprehensive list of summarization datasets could be found here: 
+        <ul>
+          <li>
+            <a href="https://gist.github.com/napsternxg/2750479273e0621c5aa697bf89843428 ">https://gist.github.com/napsternxg/2750479273e0621c5aa697bf89843428 </a>
+          </li>
+          <li>
+            <a href="https://github.com/xcfcode/Summarization-Papers">https://github.com/xcfcode/Summarization-Papers </a>
+          </li>
+        </ul>
+         </p>
         <h3>Evaluation</h3>
 
-        <p>
-          We would use both manual and automatic evaluation of the submissions. For the manual evaluation, we will use several quality criteria which are common for evaluation of text samples produced by automatic language generation systems: adequacy, relevance, coverage, readability and grammaticality. Unlike other similar tasks, textual coherence will not be taken into account, because we believe meeting minutes are not always supposed to have a coherent textual form. ROUGE would be the primary metric for automatic evaluation. However, given the abstractive nature of some minutes, we would also use two recent semantic-level metrics: BERTScore and Sentence Mover Score.
-
-          For the subsidiary tasks (B and C), accuracy would be the evaluation metric.
-
-        </p>
+       <h5>Manual Evaluation of Task A </h5>
+          For the manual evaluation of Task A, we will use several quality criteria which are common for evaluation of text samples produced by automatic language generation systems: adequacy, relevance, coverage, readability, and grammaticality. Unlike other similar tasks, textual coherence will not be taken into account, because we believe meeting minutes are not always supposed to have a coherent textual form. The manual evaluation will be carried out blindly by our annotators. If you would like to contribute to the evaluation, it would be highly appreciated. Please get in touch.
+       <h5>Automatic Evaluation of Task A</h5>
+          ROUGE would be the primary metric for automatic evaluation. However, given the abstractive nature of some minutes, we would also use two recent semantic-level metrics: BERTScore and Sentence Mover Score.
+      <h5>Evaluation of Tasks B and C</h5>
+        For the subsidiary tasks (B and C), accuracy would be the evaluation metric.
         
         <h3>Submission Platform</h3>
 
         <p>
-          We would ask our participants to host their system-runs in their own GitHub repository and share the link with us with exactly the system requirements/environment to run their code.
+          We would ask our participants to host their system-runs in their own GitHub repository and share the link with us with exactly the system requirements/environment to run their code. Also, they would submit their automatically generated outputs. In general, you will be expected to submit the outputs of your system in Task A and optionally in Task B and/or Task C, in some fairly simple format based on plain text.
+
         </p>
         
         <h3>Publication</h3>
