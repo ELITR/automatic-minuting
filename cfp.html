@@ -168,10 +168,10 @@
         <h2 id="automin">AutoMin 2021: The 1<sup>st</sup> Shared Task on Automatic Minuting</h2>
 
         <p>
-          Ever since most of our interactions went virtual, the need for automatic support for smooth running of the online events, meetings became more intense. Summarizing meeting contents is one of them. Meeting minutes keep a record of what was discussed at a meeting. It is usually an unstructured written document used to inform participants and non-participants of what happened during the meeting. Automatic Minuting tools would be an useful addition to better comprehend the meeting contents quickly. People adopt different styles to record minutes of the meeting. The minutes also depend on the category of the meeting, the intended audience, and the goal or objective of the meeting. Text/Speech summarization would rank close to this task. However, Automatic Minuting is challenging due to the absence of agreed-upon guidelines, variety of minuting practices, and lack of extensive background research unlike Text or Speech Summarization. 
+         When most of our interactions went virtual, the need for automatic support for smooth running of the online events such as project meetings became more intense. Summarizing meeting contents is one of them. Meeting minutes keep a record of what was discussed at a meeting. It is usually a written document with little or no structure (perhaps a hierarchical bulleted list) aimed at informing the participants and non-participants of what happened during the meeting. ‘Automatic minuting’ tools would be a useful addition to better comprehend the meeting contents quickly. People adopt different styles when ‘taking notes’ or ‘recording minutes’ of the meeting. The minutes also depend on the category of the meeting, the intended audience, and the goal or objective of the meeting. Text or speech summarization methods known from the past would rank close to this task. However, Automatic Minuting is challenging due to the absence of agreed-upon guidelines, variety of minuting practices, and lack of extensive background research. 
         </p>
         <p>
-          We propose the first shared task on Automatic Minuting of meeting proceedings. Our objective is to drive community efforts towards understanding the challenges of the task and develop tools for this important use-case especially in the current scenario. With this shared task we would invite the Speech and Natural Language Processing community to investigate the challenges of automatic minuting with real meeting data in two different settings: technical project meetings (both in English and Czech) and parliamentary proceedings (English). 
+         We propose AutoMin, the first shared task on automatic minuting of meeting proceedings. Our objective is to drive community efforts towards understanding the challenges of the task and develop tools for this important use case especially in the current world which had to go on-line far more than expected. With this shared task, we would invite the speech and natural language processing community to investigate the challenges of automatic minuting with real meeting data in two different settings: technical project meetings (both in English and Czech) and parliamentary proceedings (English). 
         </p>
 
         <h3>AutoMin Task</h3>
@@ -189,6 +189,33 @@
             <strong>Task C:</strong> Given a pair of minutes, the task is to identify whether the two minutes belong to the same or different meetings. This sub-task is important as we want to uncover how minutes created by two different persons for the same meeting may differ in content and coverage.
           </li>
         </ul>
+        
+        <h3>Procedure Overview</h3>
+        <ol>
+          <li>
+            We will first release ‘trial’ data, to illustrate the task and the formats used.
+          </li>
+          <li>
+            Later, we will release available training and dev-set data which will match in a format exactly with the main test data.
+          </li>
+          <li>
+            The training and dev-set data will contain the inputs and the reference outputs. (E.g. for Task A, this will be the transcripts and one or sometimes more manually created minutes.)
+          </li>
+          <li>
+            The shared task itself will run for a week in late May: you will be given test inputs and no reference outputs. You will be expected to submit your outputs during the evaluation week, before the System Output Submission deadline.
+          </li>
+           <li>
+            You will be expected to write a paper describing your system and submit it before the System Report Submission deadline.
+          </li>
+           <li>
+            Due to time constraints, we expect that the official results of the task will be available only after the System Report Submission deadline; you will have a chance to include them in your report before the Camera-Ready deadline for the report.
+          </li>
+           <li>
+            Based on the results and system reports, we will invite about 50% of teams to write an extended description of their system, to form a special issue of PBML.
+          </li>
+        </ol>
+        
+        
         
         <h3>Data</h3>
         
