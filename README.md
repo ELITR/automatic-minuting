@@ -1,5 +1,5 @@
 ### First Shared Task on Automatic Minuting
-
+https://elitr.github.io/automatic-minuting/index.html
 <!--
 **automatic-minuting/automatic-minuting** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
