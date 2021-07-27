@@ -1,5 +1,8 @@
-### First Shared Task on Automatic Minuting
+### First Shared Task on Automatic Minuting (AutoMin) at Interspeech 2021
 https://elitr.github.io/automatic-minuting/index.html
+
+## SummDial special session @ SIGDial 2021
+https://elitr.github.io/automatic-minuting/summdial.html
 <!--
 **automatic-minuting/automatic-minuting** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
