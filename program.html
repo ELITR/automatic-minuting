@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="First Shared Task on Automatic Minuting">
+
+  <title>First Shared Task on Automatic Minuting</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Fira Sans font -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
+
+  <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- Custom styles for this template -->
+  <link href="styles.css" rel="stylesheet">
+
+  <!-- icons -->
+  <link rel="stylesheet" href="./font-awesome-4.1.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+  <!-- NAVBAR ================================================== -->
+
+  <div class="navbar-wrapper">
+    <div class="container">
+      <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container">
+
+          <!-- MENU BUTTON FOR SMALL SCREENS + LOGO ================================ -->
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="header-logo-link" href="index.html">
+              <div class="header-logo">
+                <span class="letter-highlight">Auto</span>matic
+                <span class="letter-highlight">Min</span>uting
+                 <!--<span class="letter-highlight">S</span>hared Task-->
+                @ <span class="letter-highlight">Interspeech 2021</span>
+              </div>
+            </a>
+          </div>
+
+          <!-- MENU OPTIONS ================================================== -->
+
+          <div class="navbar-collapse collapse pull-right">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Call for Participation <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="cfp.html">CfP</a></li>
+                   <!--<li><a href="cfp.html#topics">Topics of Interest</a></li>-->
+                  <!--<li><li><a href="cfp.html#sharedtasks">Shared Tasks</a></li>-->
+                  <li><a href="submission.html">Submission Information</a></li>
+                  <li><a href="index.html#important-dates">Important Dates</a></li>
+                  <!--<li><a href="cfp.html#journal">Journal Extension</a></li>-->
+                  <!--<li><a href="cfp.html#keynotes">Keynote Speakers</a></li>-->
+                  <!--<li><a href="cfp.html#committees">Committees</a></li>-->
+                </ul>
+              </li>
+              <!--<li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shared Tasks <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="sharedtasks.html">Call for Participation</a></li>
+                  <li><a href="sharedtasks.html#clscisumm">CL-SciSumm</a></li>
+                  <li><a href="sharedtasks.html#laysumm">CL-LaySumm</a></li>
+                  <li><a href="sharedtasks.html#longsumm">LongSumm</a></li>
+                  <li><a href="sharedtasks.html#register">Registration</a></li>
+                  <li><a href="sharedtasks.html#dates">Important Dates</a></li>
+                  <li><a href="sharedtasks.html#organizers">Organizers</a></li>
+                </ul>
+              </li>-->
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Program<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="keynotespeakers.html">Keynote Speakers</a></li>
+                  <li><a href="program.html">Program Outline</a></li>
+                  <li><a href="accepted-papers.html">Accepted Submissions</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Committees<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="organizingcommittee.html">Organizing Committee</a></li>
+                  <!--<li><a href="steeringcommittee.html">Steering Committee</a></li>-->
+                  <li><a href="scientificcommittee.html">Scientific Committee</a></li>
+                  <!--<li><a href="contact.html">Contact Us</a></li>-->
+                </ul>
+              </li>
+              <!--<li><a href="previousworkshops.html">Other Workshops</a></li>-->
+               <!--<li><a href="https://www.interspeech2021.org/">Venue</a></li>-->
+            </ul>
+          </div>
+
+          <!-- MENU OPTIONS END ================================ -->
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT ============================================= -->
+
+  <div class="container marketing navbar-spacing">
+
+    <div class="row">
+      <div class="col-md-12">
+
+        <!-- CFP INTRODUCTION ================================================== -->
+
+        <!-- <h1>The 6<sup>th</sup> Computational Linguistics Scientific Document Summarization Shared
+          Task (CL-SciSumm 2020)</h1> -->
+
+        <h1>AutoMin 2021 Call for Participation</h1>
+
+<hr class="featurette-divider">
+        
+       <!-- <h1>Accepted Papers</h1>
+        
+       <ul>
+          <li> <h4>Coreference-Aware Dialogue Summarization, Authors: Zhengyuan Liu, Ke Shi and Nancy Chen (Long) </h4></li>
+          <li> <h4>Weakly Supervised Extractive Summarization with Attention, Authors:  Yingying Zhuang, Yichao Lu and Simi Wang (Long) </h4></li>
+          <li> <h4>Incremental temporal summarization in multi-party meetings, Authors: Ramesh Manuvinakurike, Saurav Sahay, Wenda Chen and Lama Nachman (Long)  </h4></li>
+          <li> <h4>Mitigating Topic Bias when Detecting Decisions in Dialogue, Authors:  Mladen Karan, Prashant Khare, Patrick Healey and Matthew Purver (Short) </h4></li>
+        </ul>
+        
+        <hr class="featurette-divider"> -->
+
+       
+        <h1>Program Schedule</h1>
+        <a name="program-schedule"></a>
+       <table class="table program">
+            <thead>
+              <tr>
+                <th scope="col"><mark>Join link available under Special Session SS1</mark> at <a href="http://www.colips.org/conferences/sigdial2021/wp/technical-session/">SIGDial 2021 Technical Program Schedule</a></th>
+                <th scope="col">SGT</th>
+                <th scope="col">CEST</th>
+                <th scope="col">EDT</th>
+                <th scope="col">IST</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Opening</th>
+                <td class="tz">22:30-22:45</td>
+                <td class="tz">16:30-16:45</td>
+                <td class="tz">10:30-10:45</td>
+                <td class="tz">20:00-20:15</td>
+              </tr>
+              <tr>
+                <th scope="row">Keynote 1: <a href="#keynote">Klaus Zechner &mdash; Who discussed what with whom: is meeting summarization a solved problem?</a></th>
+                <td class="tz">22:45-23:30</td>
+                <td class="tz">16:45-17:30</td>
+                <td class="tz">10:45-11:30</td>
+                <td class="tz">20:15-21:00</td>
+              </tr>
+              <tr>
+                <th scope="row">Break - 5 minutes</th>
+                <td class="tz">23:30-23:35</td>
+                <td class="tz">17:30-17:35</td>
+                <td class="tz">11:30-11:35</td>
+                <td class="tz">21:00-21:05</td>
+              </tr>
+              <tr>
+                <th scope="row">Long Paper 1: <a href="https://arxiv.org/pdf/2106.08556.pdf">Coreference-Aware Dialogue Summarization - Zhengyuan Liu, Ke Shi, and Nancy Chen</a></th>
+                <td class="tz">23:35-23:55</td>
+                <td class="tz">17:35-17:55</td>
+                <td class="tz">11:35-11:55</td>
+                <td class="tz">21:05-21:25</td>
+              </tr>
+              <tr>
+                <th scope="row">Long Paper 2: <a href="https://assets.amazon.science/a1/98/dfa7608e420c935a1a667f4c6bb5/weakly-supervised-extractive-summarization-with-attention.pdf">Weakly Supervised Extractive Summarization with Attention - Yingying Zhuang, Yichao Lu, and Simi Wang </a></th>
+                <td class="tz">23:55-00:15<sup>+1</sup></td>
+                <td class="tz">17:55-18:15</td>
+                <td class="tz">11:55-12:15</td>
+                <td class="tz">21:25-21:45</td>
+              </tr>
+               <tr>
+                <th scope="row">Long Paper 3: <a href="https://drive.google.com/file/d/1k3XhT1CIobvx4epDj_D2m5yA-irNbeo3/view?usp=sharing">Incremental temporal summarization in multi-party meetings - Ramesh Manuvinakurike, Saurav Sahay, Wenda Chen, and Lama Nachman </a></th>
+                <td class="tz">00:15<sup>+1</sup>-00:35<sup>+1</sup></td>
+                <td class="tz">18:15-18:35</td>
+                <td class="tz">12:15-12:35</td>
+                <td class="tz">21:45-22:05</td>
+              </tr>
+               <tr>
+                <th scope="row">Break - 10 minutes</th>
+                <td class="tz">00:35<sup>+1</sup>-00:45<sup>+1</sup></td>
+                <td class="tz">18:35-18:45</td>
+                <td class="tz">12:35-12:45</td>
+                <td class="tz">22:05-22:15</td>
+              </tr>
+               <tr>
+                <th scope="row">Panel Discussion: <a href="#panel">Dialogue and Meeting Summarization: Taking Stock and Looking Ahead, Towards Automatic Minuting - Ani Nenkova, Diyi Yang, Klaus Zechner, and Chenguang Zhu </a></th>
+                <td class="tz">00:45<sup>+1</sup>-01:45<sup>+1</sup></td>
+                <td class="tz">18:45-19:45</td>
+                <td class="tz">12:45-13:45</td>
+                <td class="tz">22:15-23:15</td>
+              </tr>
+              <tr>
+                <th scope="row">Break - 5 minutes</th>
+                <td class="tz">01:45<sup>+1</sup>-01:50<sup>+1</sup></td>
+                <td class="tz">19:45-19:50</td>
+                <td class="tz">13:45-13:50</td>
+                <td class="tz">23:15-23:20</td>
+              </tr>
+               <tr>
+                <th scope="row">Short Paper 1: <a href="http://www.eecs.qmul.ac.uk/~mpurver/papers/karan-et-al21sigdial.pdf">Mitigating Topic Bias when Detecting Decisions in Dialogue - Mladen Karan, Prashant Khare, Patrick Healey, and Matthew Purver  </a></th>
+                <td class="tz">01:50<sup>+1</sup>-02:10<sup>+1</sup></td>
+                <td class="tz">19:50-20:10</td>
+                <td class="tz">13:50-14:10</td>
+                <td class="tz">23:20-23:40</td>
+              </tr>
+              <tr>
+                <th scope="row">Short Paper 2: <a href="https://youtu.be/0KG4SB0ykjs">Creating a data set of abstractive summaries of turn-labeled spoken human-computer conversations - Iris Hendrickx and Virginia Meijer</a></th>
+                <td class="tz">02:10<sup>+1</sup>-02:30<sup>+1</sup></td>
+                <td class="tz">20:10-20:30</td>
+                <td class="tz">14:10-14:30</td>
+                <td class="tz">23:40-00:00<sup>+1</sup></td>
+              </tr>
+              <tr>
+                <th scope="row">Short Paper 3: <a href="https://drive.google.com/file/d/1a5SKMZT_TrGkTahbqdUuwXKxjv4tPEN0/view?usp=sharing">Dynamic Sliding Window for Meeting Summarization - Zhengyuan Liu and Nancy Chen</a></th>
+                <td class="tz">02:30<sup>+1</sup>-02:50<sup>+1</sup></td>
+                <td class="tz">20:30-20:50</td>
+                <td class="tz">14:30-14:50</td>
+                <td class="tz">00:00<sup>+1</sup>-00:20<sup>+1</sup></td>
+              </tr>
+                <tr>
+                <th scope="row">Closing</th>
+                <td class="tz">02:50<sup>+1</sup>-03:00<sup>+1</sup></td>
+                <td class="tz">20:50-21:00</td>
+                <td class="tz">14:50-15:00</td>
+                <td class="tz">00:20<sup>+1</sup>-00:30<sup>+1</sup></td>
+              </tr>
+            </tbody>
+          </table>
+        
+        <hr class="featurette-divider">
+
+        <h3>Contact</h3>
+
+        <p>
+          For further information about this task and dataset, please contact:
+        </p>
+
+        <ul>
+          <li>
+            Tirthankar Ghosal <a href="mailto:ghosal@ufal.mff.cuni.cz ">ghosal@ufal.mff.cuni.cz</a>
+          </li>
+          <li>
+            Muskaan Singh <a href="mailto:singh@ufal.mff.cuni.cz">singh@ufal.mff.cuni.cz</a>
+          </li>
+        </ul>
+
+    <!-- FOOTER ========================================== -->
+  
+    <hr><br />
+  
+    <footer>
+     <div class="footer-wrapper">
+        <div class="footer-left">
+          <p>Contact: <a href="mailto:minute@ufal.mff.cuni.cz">minute@ufal.mff.cuni.cz</a></p>
+          <p>Follow us: <a href="https://twitter.com/elitrorg">https://twitter.com/elitrorg</a></p>
+          <p>&copy; 2020 European Live Translator, A Horizon 2020 Project, <a href="https://elitr.eu/">https://elitr.eu/</a></p>
+         <!-- <p>
+            <a href="https://www.pexels.com/photo/library-university-books-students-12064/">
+              Photo of Library Room by Tamas Meszaros (Free to use)
+            </a>
+          </p>
+          <p>
+            <a href="https://pxhere.com/en/photo/1575603">
+              Picture of a network by asawin form PxHere (Creative Commons CC0)
+            </a>
+          </p>-->
+        </div>
+        <div class="footer-right">
+          <a href="#">Back to top</a>
+        </div>
+     </div>
+    </footer>
+
+  </div>
+
+  <!-- Bootstrap core JavaScript ================================================== -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="./dist/js/bootstrap.min.js"></script>
+  <script src="./assets/js/docs.min.js"></script>
+
+</body>
+
+</html>
+      
